@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 
 .App-logo {
