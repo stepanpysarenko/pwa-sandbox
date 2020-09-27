@@ -1,8 +1,11 @@
-.App {
-  text-align: center;
+body {
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+}
+
+.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -38,4 +41,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Nav-main ul{
+  list-style: none;
+  padding: none;
+  padding-inline-start: 0;
+}
+
+.Nav-main a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
